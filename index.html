@@ -5,35 +5,116 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Carlos Solanilla | Portfolio</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 2rem; background: #f4f4f4; }
-    h1 { color: #333; }
-    .project { margin-bottom: 2rem; background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 0 5px rgba(0,0,0,0.1); }
-    a { color: #007acc; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #007acc;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    h1 {
+      margin-bottom: 0.5rem;
+    }
+
+    p.description {
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+    }
+
+    .section-title {
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+      border-bottom: 2px solid #007acc;
+      padding-bottom: 0.5rem;
+    }
+
+    .project, .publication {
+      background: white;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .project h2, .publication h2 {
+      margin-top: 0;
+      font-size: 1.2rem;
+    }
+
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+      background-color: #eee;
+    }
   </style>
 </head>
 <body>
-  <h1>Carlos Solanilla – Data Science & Computational Chemistry Portfolio</h1>
-  <p>Welcome! Below are some selected coding projects I've worked on. Click any project title to view its GitHub repo.</p>
 
-  <div class="project">
-    <h2><a href="https://github.com/csolanilla/MOF-transport-models">MOF Transport Modeling</a></h2>
-    <p>Python-based simulation and visualization of guest diffusion in Metal-Organic Frameworks using MD and enhanced sampling techniques.</p>
+  <header>
+    <h1>Carlos Solanilla</h1>
+    <p>Computational Chemist & Data Scientist</p>
+  </header>
+
+  <div class="container">
+    <p class="description">Welcome to my portfolio site. Here you'll find selected coding projects and publications from my work in computational chemistry, data science, and molecular modeling.</p>
+
+    <div class="section-title">🔬 Projects</div>
+
+    <div class="project">
+      <h2><a href="https://github.com/csolanilla/statistical-mechanics">Statistical Mechanics: MD Code</a></h2>
+      <p>Molecular Dynamics simulation code written in Python, developed to study classical statistical mechanics concepts and thermodynamic behavior at the particle level.</p>
+    </div>
+
+    <!-- Add more project cards below as needed -->
+
+    <div class="section-title">📚 Publications</div>
+
+    <div class="publication">
+      <h2><a href="https://doi.org/10.1038/s41557-022-01128-3" target="_blank">Nature Chemistry (2022)</a></h2>
+      <p>Transient porosity in metal-organic frameworks studied via MD and enhanced sampling techniques.</p>
+    </div>
+
+    <div class="publication">
+      <h2><a href="https://doi.org/10.1002/ange.202219039" target="_blank">Angewandte Chemie (2022)</a></h2>
+      <p>Investigation of dynamic host-guest interactions in crystalline materials using atomistic simulations.</p>
+    </div>
+
+    <div class="publication">
+      <h2><a href="https://doi.org/10.1021/jacs.4c13797" target="_blank">Journal of the American Chemical Society (2024)</a></h2>
+      <p>Modeling gas transport in porous materials and its correlation with framework flexibility and adsorption performance.</p>
+    </div>
+
+    <footer>
+      Contact: <a href="mailto:csolanilla15@gmail.com">csolanilla15@gmail.com</a> |
+      <a href="https://www.linkedin.com/in/carlos-solanilla-salinas-a40ab82a2/">LinkedIn</a>
+    </footer>
   </div>
 
-  <div class="project">
-    <h2><a href="https://github.com/csolanilla/cheminformatics-docking">Cheminformatics + Docking Analysis</a></h2>
-    <p>Automated workflow for cholinesterase inhibitor analysis using RDKit, molecular docking, and Scikit-learn.</p>
-  </div>
-
-  <div class="project">
-    <h2><a href="https://github.com/csolanilla/Intro-to-GCNN">Introductory Graph Convolution Neural Networks</a></h2>
-    <p>Easy Examples in using OpenFF and GCNNs for molecular modeling</p>
-  </div>
-
-  <!-- Add more projects here -->
-
-  <footer>
-    <p>Contact: <a href="csolanilla15@gmail.com">csolanilla15@gmail.com</a> | <a href="https://www.linkedin.com/in/carlos-solanilla-salinas-a40ab82a2/">LinkedIn</a></p>
-  </footer>
 </body>
 </html>
+
