@@ -1,4 +1,4 @@
-# Carlos Solanilla — Computational Chemist | Data Scientist
+# Carlos Jose Solanilla Salinas — Computational Chemist | Data Scientist
 
 Welcome to my project portfolio!  
 This repository serves as a hub for selected coding, data analysis, and computational science projects I’ve completed — from algorithmic challenges to applied scientific research.
