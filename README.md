@@ -20,7 +20,7 @@ Projects applying **Density Functional Theory (DFT)**, **Molecular Dynamics (MD)
 ### 🧩 Algorithmic Challenges
 Programming challenges that strengthen problem-solving skills and algorithmic thinking.
 
-- **[Rosalind](https://rosalind.info/) Solutions** — Bioinformatics problems solved in Python and R.
+- **[Rosalind](https://rosalind.info/) Solutions** — Bioinformatics problems solved in Python and R.[📂](rosalind_problems/)
 - **[Advent of Code](https://adventofcode.com/) Solutions** — Daily coding puzzles with clean, well-documented solutions.
   
 > *Code and explanations include approach, complexity analysis, and lessons learned.*
